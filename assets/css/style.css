@@ -50,29 +50,57 @@ UTILITIES
 /*#region DEBUG*/
 
 
-.debug .poster{
-    height: 600px;
-    background-color: lightgray;
-}
-
-.debug .no_limits{
-    height: 400px;
-}
-
 .debug .media{
     height: 400px;
 }
 /*#endregion DEBUG*/
 
 
-/*region NAV*/
+/*#region NAV*/
 
 .bg_logo img{
     width: 80px;
 }
 
+/*#endregion NAV*/
 
-/*region NAV*/
+
+/*#region ACCESSORIES*/
+
+.accessories img{
+    width: 100px;
+}
+
+/*#endregion ACCESSORIES*/
+
+
+/*#region POSTER GAME*/
+.poster{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.position_ab_card_poster{
+    position: absolute;
+    left: 50px;
+    bottom: 90px;
+}
+
+.poster_game img{
+    width: 100%;
+}
+
+
+
+/*#endregion POSTER GAME*/
+
+
+
+
+
 
 /*forse meglio unica regola img*/
 .card_img img{
@@ -80,10 +108,6 @@ UTILITIES
 }
 
 .console img{
-    width: 100%;
-}
-
-.accessories img{
     width: 100%;
 }
 
