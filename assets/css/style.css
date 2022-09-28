@@ -1,7 +1,7 @@
 
 :root{
     --bg_logo: #000000;
-    --bg_nav: #00439C;
+    --bg_footer: #00439C;
     --bg_ps_now: #161C3B;
     --bg__new_exits: #1F1F1F;
     --bg_pluss: #BEBCBB;
@@ -19,6 +19,22 @@ UTILITIES
     background-color: var(--bg_logo);
 }
 
+.bg_exits{
+    background-color: var(--bg__new_exits);
+}
+
+.bg_pluss{
+    background-color: var(--bg_pluss);
+}
+
+.bg_ps_now{
+    background-color: var(--bg_ps_now);
+}
+
+.bg_footer{
+    background-color: var(--bg_footer);
+}
+
 /*#section DEBUG*/
 
 .debug .jumbotron{
@@ -26,8 +42,49 @@ UTILITIES
     background-color: lightgray;
 }
 
+.debug .poster{
+    height: 600px;
+    background-color: lightgray;
+}
+
+.debug .no_limits{
+    height: 400px;
+}
+
+.debug .media{
+    height: 400px;
+}
 /*#endsection DEBUG*/
 
+/*forse meglio unica regola img*/
 .card_img img{
     width: 100%;
+}
+
+.console img{
+    width: 100%;
+}
+
+.accessories img{
+    width: 100%;
+}
+
+.exits img{
+    width: 100%;
+}
+
+.explore_items img{
+    width: 100%;
+}
+
+.plus img{
+    width: 100%;
+}
+
+.discount_items img{
+    width: 100%;
+}
+
+.bg_footer img{
+    width: 10%;
 }
