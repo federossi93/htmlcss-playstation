@@ -35,12 +35,20 @@ UTILITIES
     background-color: var(--bg_footer);
 }
 
+
+.position_ab_card{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+.position_ab_card2{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+}
 /*#region DEBUG*/
 
-.debug .jumbotron{
-    height: 600px;
-    background-color: lightgray;
-}
 
 .debug .poster{
     height: 600px;
