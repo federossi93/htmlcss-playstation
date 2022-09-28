@@ -7,6 +7,9 @@
     --bg_pluss: #BEBCBB;
 }
 
+img{
+    max-width: 100%;
+}
 
 /*********
 UTILITIES
@@ -18,6 +21,13 @@ UTILITIES
 
 /*#section DEBUG*/
 
-
+.debug .jumbotron{
+    height: 600px;
+    background-color: lightgray;
+}
 
 /*#endsection DEBUG*/
+
+.card_img img{
+    width: 100%;
+}
