@@ -35,7 +35,7 @@ UTILITIES
     background-color: var(--bg_footer);
 }
 
-/*#section DEBUG*/
+/*#region DEBUG*/
 
 .debug .jumbotron{
     height: 600px;
@@ -54,7 +54,17 @@ UTILITIES
 .debug .media{
     height: 400px;
 }
-/*#endsection DEBUG*/
+/*#endregion DEBUG*/
+
+
+/*region NAV*/
+
+.bg_logo img{
+    width: 80px;
+}
+
+
+/*region NAV*/
 
 /*forse meglio unica regola img*/
 .card_img img{
