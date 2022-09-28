@@ -11,3 +11,13 @@
 /*********
 UTILITIES
 *********/
+
+.bg_logo{
+    background-color: var(--bg_logo);
+}
+
+/*#section DEBUG*/
+
+
+
+/*#endsection DEBUG*/
