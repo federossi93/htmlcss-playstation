@@ -5,6 +5,7 @@
     --bg_ps_now: #161C3B;
     --bg__new_exits: #1F1F1F;
     --bg_pluss: #BEBCBB;
+    --bg_btn: #D9DADC;
 }
 
 img{
@@ -93,11 +94,15 @@ UTILITIES
     width: 100%;
 }
 
-
-
 /*#endregion POSTER GAME*/
 
+/*#region PS PLUS*/
 
+.btn_plus{
+    background-color: var(--bg_btn);
+}
+
+/*#endregion PS PLUS*/
 
 
 
