@@ -36,6 +36,14 @@ UTILITIES
     background-color: var(--bg_footer);
 }
 
+.card_img img,
+.console img,
+.exits img,
+.explore_items img,
+.plus img,
+.discount_items img{
+    width: 100%;
+}
 
 .position_ab_card{
     position: absolute;
@@ -48,13 +56,15 @@ UTILITIES
     bottom: 40px;
     right: 50px;
 }
-/*#region DEBUG*/
 
-
-.debug .media{
-    height: 400px;
+a{
+    text-decoration: none;
+    color: white
 }
-/*#endregion DEBUG*/
+
+ul{
+    list-style: none;
+}
 
 
 /*#region NAV*/
@@ -65,7 +75,6 @@ UTILITIES
 
 /*#endregion NAV*/
 
-
 /*#region ACCESSORIES*/
 
 .accessories img{
@@ -74,8 +83,8 @@ UTILITIES
 
 /*#endregion ACCESSORIES*/
 
-
 /*#region POSTER GAME*/
+
 .poster{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
@@ -104,34 +113,24 @@ UTILITIES
 
 /*#endregion PS PLUS*/
 
+/*#region SOCIAL*/
 
-
-
-/*forse meglio unica regola img*/
-.card_img img{
-    width: 100%;
+.social img{
+    width: 150px;
 }
 
-.console img{
-    width: 100%;
+/*#endregion SOCIAL*/
+
+/*#region FOOTER*/
+
+.region img{
+    width: 150px;
 }
 
-.exits img{
-    width: 100%;
+.link_footer li{
+    margin-bottom: 1rem;
 }
+/*#endregion FOOTER*/
 
-.explore_items img{
-    width: 100%;
-}
 
-.plus img{
-    width: 100%;
-}
 
-.discount_items img{
-    width: 100%;
-}
-
-.bg_footer img{
-    width: 10%;
-}
