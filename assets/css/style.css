@@ -66,6 +66,19 @@ ul{
     list-style: none;
 }
 
+.outline_2:hover, :not(.btn-check)+.outline_2:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    outline: 2px solid black;
+    outline-offset: 2px;
+}
+
+.outline_-4:hover, :not(.btn-check)+.outline_-4:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    outline: 2px solid black;
+    outline-offset: -4px;
+}
 
 /*#region NAV*/
 
@@ -79,6 +92,23 @@ ul{
     left: 0;
     width: 100%;
     z-index: 1;
+}
+
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    content: "\f107";
+    font: var(--fa-font-solid);
+    border: none;
+}
+
+.dropdown-toggle.show::after {
+    content: "\f106";
+    font: var(--fa-font-solid);
+    border: none;
 }
 
 .jumbotron{
@@ -101,7 +131,6 @@ ul{
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 100vh;
 }
 
 
@@ -111,6 +140,12 @@ ul{
 
 .btn_plus{
     background-color: var(--bg_btn);
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn_plus:hover{
+    box-shadow: 0 0 0 2px rgb(178, 175, 175);
 }
 
 /*#endregion PS PLUS*/
