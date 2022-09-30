@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="debug">
+<body>
     <header id="site_header">
         <section class="bg_logo">
             <div class="text-uppercase text-light py-2 px-3 text-end">
@@ -31,10 +31,9 @@
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu ">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -44,7 +43,6 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -54,7 +52,6 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -64,7 +61,6 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -74,7 +70,6 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -84,7 +79,6 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -97,7 +91,6 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -119,10 +112,10 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active position-relative">
                         <img src="./assets/img/returnal-listing-thumb-01-ps5.jpg" class="d-block w-100" alt="...">
-                        <div class="position_ab_card text-light" style="width: 18rem;">
+                        <div class="position_ab_card text-light" style="width: 18rem ;">
                             <div class="card-body">
-                                <h2 class="card-title mb-3 mb-5 d-none d-xxl-block">Rompi il cerchio</h2>
-                                <p class="card-text mb-5 d-none d-xl-block">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thiller fantastico, disponibile in esclusiva su PS5</p>
+                                <h2 class="card-title mb-3 mb-5 ">Rompi il cerchio</h2>
+                                <p class="card-text mb-5">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thiller fantastico, disponibile in esclusiva su PS5</p>
                                 <a href="#" class="btn btn-danger rounded-pill">Acquista ora</a>
                             </div>
                         </div>
@@ -235,16 +228,22 @@
         </div>
 
         <!--POSTER GAME-->
-        <section>
-            <div class="poster_game poster position-relative">
-                <div class="position_ab_card_poster text-light" style="width: 18rem;">
-                    <img src="./assets/img/it-takes-two-logo.png" alt="">
-                    <h2 class="card-title mb-5 mt-5">Un'avventura cooperativa selvaggia ti attende</h2>
-                    <p class="card-text mb-5">Trovati un amico e partite insieme per l'avventura più folle delle vostre vite In It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolgono il suo genere</p>
-                    <a href="#" class="btn btn-danger rounded-pill">Acquista ora</a>
+        <section class="poster">
+            <!--It takes two-->
+            <div class="container-fluid p-5">
+                <div class="row">
+                    <div class="col-5 col-xxl-3">
+                        <img class="img-fluid mb-5" src="./assets/img/it-takes-two-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-xxl-4 text-light">
+                        <h2 class="card-title mb-3 mt-5">Un'avventura cooperativa selvaggia ti attende</h2>
+                        <p class="card-text mb-4 ">Trovati un amico e partite insieme per l'avventura più folle delle vostre vite In It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolgono il suo genere</p>
+                        <a href="#" class="btn btn-danger rounded-pill">Acquista ora</a>
+                    </div>
                 </div>
             </div>
-            
         </section>
 
         <!--NEW EXITS-->
@@ -412,15 +411,26 @@
         </section>
 
         <!--SOCIAL-->
-        <section class="media text-center py-5">
+        <section class="media py-5 text-center">
             <h2 class="my-5">Seguici sui social media</h2>
-            <div class="social my-5">
-                <img src="./assets/img/twitter.jpg" alt="">
-                <img src="./assets/img/facebook.jpg" alt="">
-                <img src="./assets/img/instagram.jpg" alt="">
-                <img src="./assets/img/youtube.png" alt="">
+            <div class="container_social">
+                <div class="row row-cols-2 row-cols-md-4">
+                    <div class="col social mb-4 mb-md-0">
+                        <img src="./assets/img/twitter.jpg" alt="">
+                    </div>
+                    <div class="col social">
+                        <img src="./assets/img/facebook.jpg" alt="">
+                    </div>
+                    <div class="col social">
+                        <img src="./assets/img/instagram.jpg" alt="">
+                    </div>
+                    <div class="col social">
+                        <img src="./assets/img/youtube.png" alt="">
+                    </div>
+                </div>
             </div>
         </section>
+
 </main>
     <!-- /#site_main -->
 

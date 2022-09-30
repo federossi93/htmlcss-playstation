@@ -73,6 +73,17 @@ ul{
     width: 80px;
 }
 
+#site_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.jumbotron{
+    padding-top: 106px;
+}
 /*#endregion NAV*/
 
 /*#region ACCESSORIES*/
@@ -93,15 +104,6 @@ ul{
     height: 100vh;
 }
 
-.position_ab_card_poster{
-    position: absolute;
-    left: 50px;
-    bottom: 90px;
-}
-
-.poster_game img{
-    width: 100%;
-}
 
 /*#endregion POSTER GAME*/
 
@@ -116,9 +118,14 @@ ul{
 /*#region SOCIAL*/
 
 .social img{
-    width: 150px;
+    width: 100%;
 }
 
+.container_social{
+    width: 50%;
+    margin: auto;
+    padding: 5rem 0;
+}
 /*#endregion SOCIAL*/
 
 /*#region FOOTER*/
